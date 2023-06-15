@@ -5,4 +5,8 @@ defmodule SimpleAppWeb.PageController do
     # In this case we do want the default app layout for the "Home"-page.
     render(conn, :home)
   end
+
+  def quiz(conn, _params) do
+    render(conn, :quiz)
+  end
 end
